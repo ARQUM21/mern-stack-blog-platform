@@ -1,0 +1,98 @@
+import React, { useRef } from "react";
+import { assets } from "../assets/assets";
+import { useAppContext } from "../context/AppContext";
+
+const Header = () => {
+  const { setInput, input } = useAppContext();
+  const inputRef = useRef();
+
+  const onSubmitHandler = async (e) => {
+    e.preventDefault();
+    setInput(inputRef.current.value);
+  };
+
+  const onClear = () => {
+    setInput("");
+    inputRef.current.value = "";
+  };
+
+  return (
+    <div className="mx-8 sm:mx-16 xl:mx-24 relative">
+      <div className="text-center mt-20 mb-8">
+        <div
+          className="inline-flex items-center justify-center gap-4 px-6 py-1.5 mb-4 broder border-primary/40 bg-primary/10 rounded-full text-sm text-primary"
+        >
+          <p>New: AI feature integrated</p>
+          <img src={assets.star_icon} className="w-2.5" alt="" />
+        </div>
+
+        <h1 className="text-3xl sm:text-6xl font-semibold sm:leading-16 txt-gray-700">
+          Your own <span className="text-primary">blogging</span> <br />{" "}
+          platform.
+        </h1>
+
+        <p className="my-6 sm:my-8 max-w-2xl m-auto max-sm:text-xs text-gray-500">
+          This is your space to think out loud, to share what matters, and to
+          write without filters. Whether it's one word or a thousand, your story
+          starts right here.
+        </p>
+
+        {/* Search Form */}
+        <form
+          onSubmit={onSubmitHandler}
+          className="flex justify-between w-full max-w-sm sm:max-w-md md:max-w-lg 
+            mx-auto border-2 border-gray-300 bg-white rounded-lg 
+            overflow-hidden shadow-md hover:shadow-lg transition-all duration-300
+            focus-within:border-primary/50 focus-within:shadow-primary/20"
+        >
+          <input
+            ref={inputRef}
+            type="text"
+            placeholder="Search for blogs"
+            required
+            className="w-full pl-3 sm:pl-4 md:pl-5 py-2.5 sm:py-3 
+              outline-none text-sm sm:text-base text-gray-700
+              placeholder:text-gray-400"
+          />
+          <button
+            type="submit"
+            className="bg-primary text-white 
+              px-4 sm:px-6 md:px-8 py-2 sm:py-2.5 
+              m-1 sm:m-1.5 rounded-md
+              text-xs sm:text-sm md:text-base font-medium
+              hover:bg-primary/90 active:scale-95 
+              transition-all duration-200 cursor-pointer
+              whitespace-nowrap"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+
+      {/* Clear Search Button */}
+      <div className="text-center mb-8 sm:mb-10 md:mb-12">
+        {input && (
+          <button
+            onClick={onClear}
+            className="border border-gray-300 font-light 
+              text-xs sm:text-sm 
+              py-1.5 sm:py-2 px-4 sm:px-5 
+              rounded-md shadow-sm hover:shadow-md 
+              hover:border-primary/50 hover:text-primary
+              transition-all duration-200 cursor-pointer
+              bg-white"
+          >
+            Clear Search
+          </button>
+        )}
+      </div>
+      <img
+        src={assets.gradientBackground}
+        alt=""
+        className="absolute -top-50 -z-1 opacity-50"
+      />
+    </div>
+  );
+};
+
+export default Header;
