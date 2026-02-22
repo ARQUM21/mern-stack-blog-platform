@@ -44,28 +44,22 @@ A modern, full-featured blogging platform built with the MERN stack (MongoDB, Ex
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/bloghome.PNG)
 
 ### Admin Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/blogdashboard.PNG)
 
 ### Add Blog
 ![Add Blog](screenshots/add-blog.png)
 
 ### Blog List
-![Blog List](screenshots/blog-list.png)
+![Blog List](screenshots/bloglist.PNG)
 
 ### Comments Management
-![Comments](screenshots/comments.png)
-
-### Blog Detail Page
-![Blog Detail](screenshots/blog-detail.png)
-
-### Mobile Responsive View
-![Mobile View](screenshots/mobile-view.png)
+![Comments](screenshots/comments.PNG)
 
 ### Login Page
-![Login](screenshots/login.png)
+![Login](screenshots/bloglogin.PNG)
 
 
 ## 🚀 Tech Stack
