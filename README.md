@@ -39,6 +39,35 @@ A modern, full-featured blogging platform built with the MERN stack (MongoDB, Ex
 - 🎨 **Icons**: Lucide React for beautiful, customizable icons
 - 📦 **State Management**: React Context API for global state
 
+  
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+
+### Admin Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Add Blog
+![Add Blog](screenshots/add-blog.png)
+
+### Blog List
+![Blog List](screenshots/blog-list.png)
+
+### Comments Management
+![Comments](screenshots/comments.png)
+
+### Blog Detail Page
+![Blog Detail](screenshots/blog-detail.png)
+
+### Mobile Responsive View
+![Mobile View](screenshots/mobile-view.png)
+
+### Login Page
+![Login](screenshots/login.png)
+
+
 ## 🚀 Tech Stack
 
 ### Frontend
