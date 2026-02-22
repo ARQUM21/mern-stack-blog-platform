@@ -46,11 +46,14 @@ A modern, full-featured blogging platform built with the MERN stack (MongoDB, Ex
 ### Homepage
 ![Homepage](screenshots/bloghome.PNG)
 
+### Login Page
+![Login](screenshots/bloglogin.PNG)
+
 ### Admin Dashboard
 ![Dashboard](screenshots/blogdashboard.PNG)
 
 ### Add Blog
-![Add Blog](screenshots/add-blog.png)
+![Add Blog](screenshots/addblog.PNG)
 
 ### Blog List
 ![Blog List](screenshots/bloglist.PNG)
@@ -58,8 +61,6 @@ A modern, full-featured blogging platform built with the MERN stack (MongoDB, Ex
 ### Comments Management
 ![Comments](screenshots/comments.PNG)
 
-### Login Page
-![Login](screenshots/bloglogin.PNG)
 
 
 ## 🚀 Tech Stack
