@@ -1,6 +1,6 @@
 # 📝 MERN Stack Blog Platform
 
-A modern, full-featured blogging platform built with the MERN stack (MongoDB, Express.js, React, Node.js). This platform provides a seamless experience for creating, managing, and publishing blog posts with an intuitive admin dashboard and AI-powered content generation..
+A modern, full-featured blogging platform built with the MERN stack (MongoDB, Express.js, React, Node.js). This platform provides a seamless experience for creating, managing, and publishing blog posts with an intuitive admin dashboard and AI-powered content generation.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
